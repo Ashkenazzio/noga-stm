@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.svg" />
     <title>נגה אשכנזי עיסוי רקמות רכות</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="./assets/logo-new.svg" alt="לוגו" />
+        <img src="./assets/logo-new.svg" alt="לוגו" decoding="async" />
       </div>
       <div class="nav-and-button">
         <nav class="nav-menu">
@@ -20,9 +30,13 @@
             <li><a href="#cta" class="nav-item">קבעו איתי</a></li>
           </ul>
         </nav>
-        <a class="fat-btn" href="https://wa.me/+972506500464" target="_blank">
+        <a class="fat-btn" href="https://wa.me/+972552937229" target="_blank">
           <span>צרו קשר</span>
-          <img src="./assets/icons/whatsapp.svg" alt="וואטצאפ" />
+          <img
+            src="./assets/icons/whatsapp.svg"
+            alt="וואטצאפ"
+            decoding="async"
+          />
         </a>
       </div>
     </header>
@@ -30,8 +44,12 @@
       <section id="hero" class="hero">
         <img
           class="hero-bg"
-          src="./assets/images/hero-bg.png"
-          alt="הקליניקה של נגה"
+          src="assets/images/optimized/noga-clinic-300.webp"
+          srcset="assets/images/optimized/noga-clinic-300.webp 300w, assets/images/optimized/noga-clinic-768.webp 768w, assets/images/optimized/hero-b
+g-1024.webp 1024w, assets/images/optimized/noga-clinic-1536.webp 1536w, assets/images/optimized/noga-clinic-2048.webp 2048w"
+          sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+          decoding="async"
+          alt="הקליניקה של נגה אשכנזי"
         />
         <div class="hero-content">
           <div class="hero__titles">
@@ -43,13 +61,21 @@
             אתכם באנרגיה חדשה
           </p>
           <div class="hero__buttons">
-            <a class="btn" href="https://wa.me/+972506500464" target="_blank">
+            <a class="btn" href="https://wa.me/+972552937229" target="_blank">
               <span>שלחו הודעה</span>
-              <img src="./assets/icons/whatsapp.svg" alt="וואטצאפ" />
+              <img
+                src="./assets/icons/whatsapp.svg"
+                alt="וואטצאפ"
+                decoding="async"
+              />
             </a>
-            <a class="btn btn-alt" href="tel:+972506500464" target="_blank">
+            <a class="btn btn-alt" href="tel:+972 55-293-7229" target="_blank">
               <span>או התקשרו</span>
-              <img src="./assets/icons/phone.svg" alt="טלפון" />
+              <img
+                src="./assets/icons/phone.svg"
+                alt="טלפון"
+                decoding="async"
+              />
             </a>
           </div>
         </div>
@@ -66,7 +92,13 @@
           <div class="method-card">
             <img
               class="method-card__img"
-              src="./assets/images/pressure-cups-method.png"
+              src="assets/images/optimized/pressure-cups-method-300.webp"
+              srcset="assets/images/optimized/pressure-cups-method-300.webp 300w, assets/images/optimized/pressure-cups-method-768.webp 768w, asse
+ts/images/optimized/pressure-cups-method-1024.webp 1024w, assets/images/optimized/pressure-cups-method-1536.webp 1536w, assets/images/
+optimized/pressure-cups-method-2048.webp 2048w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
               alt="כוסות רוח"
             />
             <div class="method-card__content">
@@ -85,9 +117,16 @@
           <div class="method-card">
             <img
               class="method-card__img"
-              src="./assets/images/hot-stone-method.jpg"
+              src="assets/images/optimized/hot-stone-method-300.webp"
+              srcset="assets/images/optimized/hot-stone-method-300.webp 300w, assets/images/optimized/hot-stone-method-768.webp 768w, assets/image
+s/optimized/hot-stone-method-1024.webp 1024w, assets/images/optimized/hot-stone-method-1536.webp 1536w, assets/images/optimized/hot-st
+one-method-2048.webp 2048w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
               alt="אבנים חמות"
             />
+
             <div class="method-card__content">
               <h3 class="method-card__title">אבנים חמות</h3>
               <p class="method-card__description">
@@ -103,7 +142,13 @@
           <div class="method-card">
             <img
               class="method-card__img"
-              src="./assets/images/osteopathic-method.png"
+              src="assets/images/optimized/osteopathic-method-300.webp"
+              srcset="assets/images/optimized/osteopathic-method-300.webp 300w, assets/images/optimized/osteopathic-method-768.webp 768w, assets/i
+mages/optimized/osteopathic-method-1024.webp 1024w, assets/images/optimized/osteopathic-method-1536.webp 1536w, assets/images/optimize
+d/osteopathic-method-2048.webp 2048w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
               alt="אוסתיאופטיה"
             />
             <div class="method-card__content">
@@ -148,39 +193,78 @@
           </div>
         </div>
         <div class="about__img">
-          <img src="./assets/images/about-me.png" alt="נגה אשכנזי" />
+          <img
+            src="assets/images/optimized/about-me-300.webp"
+            srcset="assets/images/optimized/about-me-300.webp 300w, assets/images/optimized/about-me-768.webp 768w, assets/images/optimized/abou
+        t-me-1024.webp 1024w, assets/images/optimized/about-me-1536.webp 1536w, assets/images/optimized/about-me-2048.webp 2048w"
+            sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+            loading="lazy"
+            decoding="async"
+            alt="נגה אשכנזי"
+          />
         </div>
-        <div class="carousel">
-          <!-- <div class="carousel__rail">
+        <div class="swiper">
+          <div class="swiper-wrapper">
             <img
-              class="carousel__image"
-              src="./assets/images/carousel-1.png"
-              alt=""
+              class="swiper-slide"
+              src="assets/images/optimized/carousel-1-300.webp"
+              srcset="assets/images/optimized/carousel-1-300.webp 300w, assets/images/optimized/carousel-1-768.webp 768w, assets/images/optimized/
+carousel-1-1024.webp 1024w, assets/images/optimized/carousel-1-1536.webp 1536w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
+              alt="carousel 1"
             />
             <img
-              class="carousel__image"
-              src="./assets/images/carousel-2.png"
-              alt=""
+              class="swiper-slide"
+              src="assets/images/optimized/carousel-2-300.webp"
+              srcset="assets/images/optimized/carousel-2-300.webp 300w, assets/images/optimized/carousel-2-768.webp 768w, assets/images/optimized/
+carousel-2-1024.webp 1024w, assets/images/optimized/carousel-2-1536.webp 1536w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
+              alt="carousel 2"
             />
             <img
-              class="carousel__image"
-              src="./assets/images/carousel-3.png"
-              alt=""
+              class="swiper-slide"
+              src="assets/images/optimized/carousel-3-300.webp"
+              srcset="assets/images/optimized/carousel-3-300.webp 300w, assets/images/optimized/carousel-3-768.webp 768w, assets/images/optimized/
+carousel-3-1024.webp 1024w, assets/images/optimized/carousel-3-1536.webp 1536w, assets/images/optimized/carousel-3-2048.webp 2048w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
+              alt="carousel 3"
             />
             <img
-              class="carousel__image"
-              src="./assets/images/carousel-4.png"
-              alt=""
+              class="swiper-slide"
+              src="assets/images/optimized/carousel-4-300.webp"
+              srcset="assets/images/optimized/carousel-4-300.webp 300w, assets/images/optimized/carousel-4-768.webp 768w, assets/images/optimized/
+            carousel-4-1024.webp 1024w, assets/images/optimized/carousel-4-1536.webp 1536w, assets/images/optimized/carousel-4-2048.webp 2048w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
+              alt="carousel 4"
             />
             <img
-              class="carousel__image"
-              src="./assets/images/carousel-5.png"
-              alt=""
+              class="swiper-slide"
+              src="assets/images/optimized/carousel-5-300.webp"
+              srcset="assets/images/optimized/carousel-5-300.webp 300w, assets/images/optimized/carousel-5-768.webp 768w, assets/images/optimized/
+            carousel-5-1024.webp 1024w, assets/images/optimized/carousel-5-1536.webp 1536w, assets/images/optimized/carousel-5-2048.webp 2048w"
+              sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, (max-width: 1024px) 1024px, (max-width: 1536px) 1536px, 2048px"
+              loading="lazy"
+              decoding="async"
+              alt="carousel 5"
             />
-          </div> -->
-          <div class="carousel__navigation">
-            <img src="./assets/icons/arrow-next.svg" alt="הבא" />
-            <img src="./assets/icons/arrow-prev.svg" alt="הקודם" />
+          </div>
+          <div
+            class="carousel__navigation"
+            style="
+              --arrow-disbaled-url: url('./assets/icons/arrow-disabled.svg');
+              --arrow-active-url: url('./assets/icons/arrow-active.svg');
+            "
+          >
+            <div class="carousel__navigation__arrow swiper-button-prev"></div>
+            <div class="carousel__navigation__arrow swiper-button-next"></div>
           </div>
         </div>
       </section>
@@ -191,13 +275,23 @@
           ראשון במחיר מיוחד!
         </p>
         <div class="cta__buttons">
-          <a class="btn" href="https://wa.me/+972506500464" target="_blank">
+          <a class="btn" href="https://wa.me/+972552937229" target="_blank">
             <span>שלחו הודעה</span>
-            <img src="./assets/icons/whatsapp.svg" alt="וואטצאפ" />
+            <img
+              src="./assets/icons/whatsapp.svg"
+              alt="וואטצאפ"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
-          <a class="btn btn-alt" href="tel:+972506500464" target="_blank">
+          <a class="btn btn-alt" href="tel:+972 55-293-7229" target="_blank">
             <span>או התקשרו</span>
-            <img src="./assets/icons/phone.svg" alt="טלפון" />
+            <img
+              src="./assets/icons/phone.svg"
+              alt="טלפון"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
         </div>
       </section>
