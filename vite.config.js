@@ -1,5 +1,5 @@
 export default {
-  base: '/noga-stm/',
+  base: './',
   server: {
     open: true,
   },
